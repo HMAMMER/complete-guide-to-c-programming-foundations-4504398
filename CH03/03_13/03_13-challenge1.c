@@ -8,13 +8,13 @@ int main()
 	scanf("%d",&a);
 	scanf("%d",&b);
 
-	// add
-	// subtract
-	// multiply
-	// divide
-	// modulus
-	// bit shift right
-	// bit shift left
+	printf("%d + %d = %d\n", a, b, a + b);
+	printf("%d - %d = %d\n", a, b, a - b);
+	printf("%d * %d = %d\n", a, b, a * b);
+	printf("%d / %d = %f\n", a, b,(float)a/b); //TypeCasted for real numbers.
+	printf("%d %% %d = %d\n", a, b, a % b);
+	printf("%d >> %d = %d\n", a, b, a >> b);
+	printf("%d << %d = %d\n", a, b, a << b);
 
 	return 0;
 }

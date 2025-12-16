@@ -9,3 +9,5 @@ int main()
 	printf("ch = %c, x = %u, pi = %f\n",ch,x,pi);
 	return 0;
 }
+
+yea this is a clean ass themee no kizzy kap on the stack cronem 
