@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void line();
+
 int main()
 {
 	puts("How to Fight Off a Robot Attack");
@@ -10,3 +12,14 @@ int main()
 	return(0);
 }
 
+
+void line(){
+
+int icount = 0;
+while(icount < 40){
+	printf("-");
+	icount++;
+ }
+ printf("\n");
+}
+// Create line function, creates 40 (-) chars, is a void type function.
